@@ -112,7 +112,7 @@ const Bottom = styled.div`
 
 const Footer = () => {
   const { scroll } = useLocomotiveScroll();
-
+  let currentYear = new Date().getFullYear()
   const handleScroll = (id) => {
     let elem = document.querySelector(id);
     // console.log(elem);
@@ -135,7 +135,7 @@ const Footer = () => {
           data-scroll-speed="2"
         />
         <h3 data-scroll data-scroll-speed="-1">
-          Wibe Studio
+          Vision Blend Studio
         </h3>
       </LogoContainer>
       <FooterComponent
@@ -176,7 +176,7 @@ const Footer = () => {
             data-scroll-speed="2"
             data-scroll-direction="horizontal"
           >
-            &copy; 2022. All Rights Reserved.
+            &copy; {currentYear}. All Rights Reserved.
           </span>
           <span
             data-scroll
@@ -185,11 +185,11 @@ const Footer = () => {
           >
             Made with &hearts; by{" "}
             <a
-              href="http://devdreaming.com"
+              href="https://visionblendstudio.com"
               target={"_blank"}
               rel="dofollow noreferrer"
             >
-              CodeBucks
+              Vision Blend Studio
             </a>
           </span>
         </Bottom>

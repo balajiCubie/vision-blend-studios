@@ -108,7 +108,7 @@ const CoverVideo = () => {
             data-scroll-delay="0.13"
             data-scroll-speed="4"
           >
-            W
+            Vision {"  "}
           </motion.h1>
           <motion.h1
             variants={item}
@@ -116,25 +116,23 @@ const CoverVideo = () => {
             data-scroll-delay="0.09"
             data-scroll-speed="4"
           >
-            i
+          Blend
           </motion.h1>
-          <motion.h1
-            variants={item}
-            data-scroll
-            data-scroll-delay="0.06"
-            data-scroll-speed="4"
-          >
-            b
-          </motion.h1>
-          <motion.h1
-            variants={item}
-            data-scroll
-            data-scroll-delay="0.04"
-            data-scroll-speed="4"
-          >
-            e
-          </motion.h1>
+
+          <motion.h2
+            style={{ alignSelf: "flex-start" }}
+          variants={item}
+          data-scroll
+          data-scroll-delay="0.04"
+          data-scroll-speed="2"
+        >
+          studio
+        </motion.h2>
+
+
         </div>
+
+
         <motion.h2
           style={{ alignSelf: "flex-end" }}
           variants={item}
